@@ -44,11 +44,11 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="#about-me">About Me</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#education">Education</a></li>
-            <li><a href="#experience">Experience</a></li>
-            <li><a href="#contact-me">Contact Me</a></li>
+            <li><a href="#about-me" class="smooth-scroll">About Me</a></li>
+            <li><a href="#skills" class="smooth-scroll">Skills</a></li>
+            <li><a href="#education" class="smooth-scroll">Education</a></li>
+            <li><a href="#experience" class="smooth-scroll">Experience</a></li>
+            <li><a href="#contact-me" class="smooth-scroll">Contact Me</a></li>
           </ul>
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
@@ -188,14 +188,14 @@
         <div class="row">
           <div class="col-sm-6">
             <div class="item">
-              <h3 class="degree">Masters of Business Administration with emphasis in International Business</h3>
+              <h3 class="degree"><strong>Masters of Business Administration,</strong>International Business</h3>
               <h4 class="school">Texas State University</h4>
               <h5 class="graduation-date">Expected Graduation 2016</h5>
             </div>
           </div>
           <div class="col-sm-6">
             <div class="item">
-              <h3 class="degree">Bachelor of Business Administration, Marketing</h3>
+              <h3 class="degree"><strong>Bachelor of Business Administration,</strong>Marketing</h3>
               <h4 class="school">Texas State University</h4>
               <h5 class="graduation-date">Graduated 2011</h5>
             </div>
@@ -211,115 +211,130 @@
     <a name="experience"></a>
     <div id="experience-section" class="section">
       <div class="container">
-        <h2>Professional Experience<span class="arrow_title"></span></h2>
+        <h2>Experience<span class="arrow_title"></span></h2>
+
+        <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+
+          <!-- STUDY BREAKS -->
+          <div class="item study-breaks panel panel-default">
+            <div class="panel-heading header" role="tab" id="headingOne">
+              <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                <h3 class="title">Director of Operations</h3>
+                <h4 class="company-name">Study Breaks Magazine<span class="view-more"><i class="fa fa-angle-down"></i>View More<i class="fa fa-angle-down"></i></span></h4>
+              </a>
+            </div>
+            <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+              <div class="panel-body body">
+                <h6 class="company-desc">Study Breaks Magazine was started in 1988 by Gal Shweiki to inform college students of local events and provide coupons for local businesses. It has grown to 30,000 monthly copies with a readership of 100,000+ covering Austin, Lubbock, San Antonio, and San Marcos colleges.</h6>
+                <h5 class="location">San Antonio, TX</h5>
+                <p class="date">5/2015 - Present</p>
+                <p class="desc">Started as Customer Service Representative and have grown to Director of Operations handling all account management, sales team management, CRM management, distribution, invoicing, placement of ads, and various tasks for parent company, Shweiki Media.</p>
+                <ul class="responsibilities">
+                  <li>Created workflow processes for onboarding new clients, retaining current clients, advertisement design, billing, payment of independent contractors, and production schedule.</li>
+                  <li>Generated positive professional relationships with clients to help deliver quality advertisements that meet and exceed their needs to help retain them during turnover of long time sales staff.</li>
+                  <li>Reduced Distribution expenses by 25% through auditing and repurposing distribution from a 30/70 campus to business delivery ratio to 80/20 resulting in a lower return rate.</li>
+                </ul>
+              </div>
+            </div>
+          </div><!-- .study-breaks -->
 
 
-<!--
-
-  Make each company name / title be an expandable accordion to show the rest of the items.
-  That way two most important things are always shown.
-
--->
-
-        <!-- STUDY BREAKS -->
-        <div class="item study-breaks">
-          <div class="header">
-            <h3 class="title">Director of Operations</h3>
-            <h4 class="company-name">Study Breaks Magazine</h4>
-          </div>
-          <div class="body">
-            <h6 class="company-desc">Study Breaks Magazine was started in 1988 by Gal Shweiki to inform college students of local events and provide coupons for local businesses. It has grown to 30,000 monthly copies with a readership of 100,000+ covering Austin, Lubbock, San Antonio, and San Marcos colleges.</h6>
-            <h5 class="location">San Antonio, TX</h5>
-            <p class="date">5/2015 - Present</p>
-            <p class="desc">Started as Customer Service Representative and have grown to Director of Operations handling all account management, sales team management, CRM management, distribution, invoicing, placement of ads, and various tasks for parent company, Shweiki Media.</p>
-            <ul class="responsibilities">
-              <li>Created workflow processes for onboarding new clients, retaining current clients, advertisement design, billing, payment of independent contractors, and production schedule.</li>
-              <li>Generated positive professional relationships with clients to help deliver quality advertisements that meet and exceed their needs to help retain them during turnover of long time sales staff.</li>
-              <li>Reduced Distribution expenses by 25% through auditing and repurposing distribution from a 30/70 campus to business delivery ratio to 80/20 resulting in a lower return rate.</li>
-            </ul>
-          </div>
-        </div><!-- .study-breaks -->
+          <!-- RON CRAFT -->
+          <div class="item ron-craft panel panel-default">
+            <div class="panel-heading header" role="tab" id="headingTwo">
+              <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                <h3 class="title">Retail Development Manager</h3>
+                <h4 class="company-name">Ron Craft Chevrolet Cadillac<span class="view-more"><i class="fa fa-angle-down"></i>View More<i class="fa fa-angle-down"></i></span></h4>
+              </a>
+            </div>
+            <div id="collapseTwo" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingTwo">
+              <div class="panel-body body">
+                <h6 class="company-desc">Ron Craft Chevrolet Cadillac is owned by Sonic Automotive. We delivered between 240 and 300 vehicles per month.</h6>
+                <h5 class="location">Baytown, TX</h5>
+                <p class="date">6/2013 – 12/2014</p>
+                <p class="desc">Oversaw all marketing efforts which included marketing budget, merchandised vehicles, managed and cultivated vendor relationships, and conduct photography pilot programs for Sonic Automotive.</p>
+                <ul class="responsibilities">
+                  <li>Managed and reduced a wasteful monthly marketing budget by $10,000 through a switch to a more digital approach and in house creation of advertisements.</li>
+                  <li>Increased digital customer engagement by: Site Conversion Rate - 46%, Avg. Time on Site - 89% &amp; Page Views - 35% which provided the opportunity to double the industry average appointment set performance of 20% and achieve 45%.</li>
+                  <li>Conducted a year-long photography pilot for Sonic Automotive's 107 dealerships that resulted in an increased output from 15 vehicles a day to 50, increased speed to market, and consistent photographs.</li>
+                </ul>
+              </div>
+            </div>
+          </div><!-- .ron-craft -->
 
 
-        <!-- RON CRAFT -->
-        <div class="item ron-craft">
-          <div class="header">
-            <h3 class="title">Retail Development Manager</h3>
-            <h4 class="company-name">Ron Craft Chevrolet Cadillac</h4>
-          </div>
-          <div class="body">
-            <h6 class="company-desc">Ron Craft Chevrolet Cadillac is owned by Sonic Automotive. We delivered between 240 and 300 vehicles per month.</h6>
-            <h5 class="location">Baytown, TX</h5>
-            <p class="date">6/2013 – 12/2014</p>
-            <p class="desc">Oversaw all marketing efforts which included marketing budget, merchandised vehicles, managed and cultivated vendor relationships, and conduct photography pilot programs for Sonic Automotive.</p>
-            <ul class="responsibilities">
-              <li>Managed and reduced a wasteful monthly marketing budget by $10,000 through a switch to a more digital approach and in house creation of advertisements.</li>
-              <li>Increased digital customer engagement by: Site Conversion Rate - 46%, Avg. Time on Site - 89% &amp; Page Views - 35% which provided the opportunity to double the industry average appointment set performance of 20% and achieve 45%.</li>
-              <li>Conducted a year-long photography pilot for Sonic Automotive's 107 dealerships that resulted in an increased output from 15 vehicles a day to 50, increased speed to market, and consistent photographs.</li>
-            </ul>
-          </div>
-        </div><!-- .ron-craft -->
+          <!-- RON CARTER -->
+          <div class="item ron-carter panel panel-default">
+            <div class="panel-heading header" role="tab" id="headingThree">
+              <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+                <h3 class="title">Marketing Manager</h3>
+                <h4 class="company-name">Ron Carter Toyota<span class="view-more"><i class="fa fa-angle-down"></i>View More<i class="fa fa-angle-down"></i></span></h4>
+              </a>
+            </div>
+            <div id="collapseThree" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingThree">
+              <div class="panel-body body">
+                <h6 class="company-desc">Ron Carter Toyota is a privately owned dealership. We delivered between 180 and 230 vehicles per month.</h6>
+                <h5 class="location">Alvin, TX</h5>
+                <p class="date">10/2012 - 6/2013</p>
+                <p class="desc">Oversaw all digital marketing efforts which included social media and reputation management as well as planned and executed sponsorships and grassroot events.</p>
+                <ul class="responsibilities">
+                  <li>Reached number 1 and stayed in the top 5 of 154 dealerships for Gulf State Toyota Region’s digital marketing assessment.</li>
+                  <li>Developed a month-long community based Facebook campaign, “Win a Scion tC,” that achieved over 40,000 in Reach, over 2,000 in Engagement, and over 100% increase in Fans.</li>
+                  <li>Planned and executed the “Win a Scion tC” event which brought in over 400 people into the dealership.</li>
+                </ul>
+              </div>
+            </div>
+          </div><!-- .ron-carter -->
 
 
-        <!-- RON CARTER -->
-        <div class="item ron-carter">
-          <div class="header">
-            <h3 class="title">Marketing Manager</h3>
-            <h4 class="company-name">Ron Carter Toyota</h4>
-          </div>
-          <div class="body">
-            <h6 class="company-desc">Ron Carter Toyota is a privately owned dealership. We delivered between 180 and 230 vehicles per month.</h6>
-            <h5 class="location">Alvin, TX</h5>
-            <p class="date">10/2012 - 6/2013</p>
-            <p class="desc">Oversaw all digital marketing efforts which included social media and reputation management as well as planned and executed sponsorships and grassroot events.</p>
-            <ul class="responsibilities">
-              <li>Reached number 1 and stayed in the top 5 of 154 dealerships for Gulf State Toyota Region’s digital marketing assessment.</li>
-              <li>Developed a month-long community based Facebook campaign, “Win a Scion tC,” that achieved over 40,000 in Reach, over 2,000 in Engagement, and over 100% increase in Fans.</li>
-              <li>Planned and executed the “Win a Scion tC” event which brought in over 400 people into the dealership.</li>
-            </ul>
-          </div>
-        </div><!-- .ron-carter -->
+          <!-- NCIRCLE -->
+          <div class="item ncircle panel panel-default">
+            <div class="panel-heading header" role="tab" id="headingFour">
+              <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+                <h3 class="title">Office and Operations Coordinator</h3>
+                <h4 class="company-name">NCircle Entertainment<span class="view-more"><i class="fa fa-angle-down"></i>View More<i class="fa fa-angle-down"></i></span></h4>
+              </a>
+            </div>
+            <div id="collapseFour" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingFour">
+              <div class="panel-body body">
+                <h6 class="company-desc">NCircle Entertainment is a division of Alliance Entertainment Company that specialized in children's entertainment.</h6>
+                <h5 class="location">Dallas, TX</h5>
+                <p class="date">4/2012 - 10/2012</p>
+                <p class="desc">Created a full time position out of a temporary opportunity that ranged from marketing to accounting and operations.</p>
+                <ul class="responsibilities">
+                  <li>Created a Pandora radio script and suggested edits for Youtube commercials for “The Gruffalo’s Child” which generated the largest DVD launch in the company’s history, 100,000 retail in 3 months.</li>
+                  <li>Coded and processed orders in ERP system as well as communicated with the shipping warehouse on order status.</li>
+                  <li>Generated records of revenue, royalties and profits, then communicates said records to Alliance Entertainment Company’s accountants.</li>
+                </ul>
+              </div>
+            </div>
+          </div><!-- .ncircle -->
 
 
-        <!-- NCIRCLE -->
-        <div class="item ncircle">
-          <div class="header">
-            <h3 class="title">Office and Operations Coordinator</h3>
-            <h4 class="company-name">NCircle Entertainment</h4>
-          </div>
-          <div class="body">
-            <h6 class="company-desc">NCircle Entertainment is a division of Alliance Entertainment Company that specialized in children's entertainment.</h6>
-            <h5 class="location">Dallas, TX</h5>
-            <p class="date">4/2012 - 10/2012</p>
-            <p class="desc">Created a full time position out of a temporary opportunity that ranged from marketing to accounting and operations.</p>
-            <ul class="responsibilities">
-              <li>Created a Pandora radio script and suggested edits for Youtube commercials for “The Gruffalo’s Child” which generated the largest DVD launch in the company’s history, 100,000 retail in 3 months.</li>
-              <li>Coded and processed orders in ERP system as well as communicated with the shipping warehouse on order status.</li>
-              <li>Generated records of revenue, royalties and profits, then communicates said records to Alliance Entertainment Company’s accountants.</li>
-            </ul>
-          </div>
-        </div><!-- .ncircle -->
+          <!-- TEXAS STATE -->
+          <div class="item texas-state panel panel-default">
+            <div class="panel-heading header" role="tab" id="headingFive">
+              <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
+                <h3 class="title">Senior Resident Assistant/Resident Assistant</h3>
+                <h4 class="company-name">Texas State University<span class="view-more"><i class="fa fa-angle-down"></i>View More<i class="fa fa-angle-down"></i></span></h4>
+              </a>
+            </div>
+            <div id="collapseFive" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingFive">
+              <div class="panel-body body">
+                <h6 class="company-desc">Texas State University is the fourth largest university in the state of Texas that has an enrollment of over 36,000 students.</h6>
+                <h5 class="location">San Marcos, TX</h5>
+                <p class="date">8/2008 - 12/2011</p>
+                <p class="desc">Created a safe environment for Texas State University Students as well as assisted with training and managing of Resident Assistants.</p>
+                <ul class="responsibilities">
+                  <li>Planned and managed “Casino Night” program for entire Residence Life staff during August 2010 training to show how to plan and execute large scale events of over 200 participants.</li>
+                  <li>Maintained the health and welfare of 48 residents per semester as well as managed a staff of 8 Resident Assistants.</li>
+                  <li>Participated on the Resident Assistant Council with a focus on planning training and recruitment programs.</li>
+                </ul>
+              </div>
+            </div>
+          </div><!-- .texas-state -->
 
-
-        <!-- TEXAS STATE -->
-        <div class="item texas-state">
-          <div class="header">
-            <h3 class="title">Senior Resident Assistant/Resident Assistant</h3>
-            <h4 class="company-name">Texas State University</h4>
-          </div>
-          <div class="body">
-            <h6 class="company-desc">Texas State University is the fourth largest university in the state of Texas that has an enrollment of over 36,000 students.</h6>
-            <h5 class="location">San Marcos, TX</h5>
-            <p class="date">8/2008 - 12/2011</p>
-            <p class="desc">Created a safe environment for Texas State University Students as well as assisted with training and managing of Resident Assistants.</p>
-            <ul class="responsibilities">
-              <li>Planned and managed “Casino Night” program for entire Residence Life staff during August 2010 training to show how to plan and execute large scale events of over 200 participants.</li>
-              <li>Maintained the health and welfare of 48 residents per semester as well as managed a staff of 8 Resident Assistants.</li>
-              <li>Participated on the Resident Assistant Council with a focus on planning training and recruitment programs.</li>
-            </ul>
-          </div>
-        </div><!-- .texas-state -->
-
+        </div>
 
       </div>
     </div><!-- .experience -->
@@ -392,6 +407,7 @@
     <!-- endbuild -->
 
     <!-- build:js({app,.tmp}) scripts/main.js -->
+    <script src="scripts/main.js"></script>
     <script src="scripts/smooth-scroll.js"></script>
     <!-- endbuild -->
   </body>

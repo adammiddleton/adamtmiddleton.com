@@ -1,3 +1,32 @@
 #education-section {
-
+  .item {
+    border-top: 1px solid $titleColor;
+    border-left: 1px solid $titleColor;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    @include aboveMobile {
+      margin-right: 70px;
+    }
+    @include tablet {
+      margin-right: 40px;
+    }
+    @include mobile {
+      &:first-child {
+        margin-bottom: 10px;
+      }
+    }
+  }
+  h3 {
+    font-size: 2.25em;
+    font-weight: 300;
+    padding-bottom: 15px;
+    strong {
+      display: block;
+    }
+  }
+  h4 {
+    font-size: 2.05em;
+    padding-bottom: 5px;
+  }
 }

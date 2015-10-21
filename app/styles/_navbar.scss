@@ -1,6 +1,7 @@
 #navbar {
   &.navbar.navbar-default {
     background: $white;
+    border-radius: 0;
     .navbar-toggle .icon-bar {
       background-color: $titleColor;
     }
