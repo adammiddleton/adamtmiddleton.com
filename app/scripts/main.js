@@ -1,4 +1,4 @@
 ;$(function() {
-  $('.collapse').collapse();
+  $('#experience-section .collapse').collapse('hide');
 });
 
