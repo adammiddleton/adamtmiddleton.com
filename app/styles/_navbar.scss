@@ -1,5 +1,46 @@
 #navbar {
+  &.navbar.navbar-default {
+    background: $white;
+    .navbar-toggle .icon-bar {
+      background-color: $titleColor;
+    }
+    .navbar-nav > li {
+      &:hover {
+        background-color: $backgroundGrey;
+      }
+      & > a {
+        color: $titleColor;
+        // padding-left: 0;
+        font-size: 1.75em;
+        font-family: $titleFont;
+        @media screen and (min-width: 768px) {
+          &[href="#about-me"] {
+            padding-left: 0;
+          }
+        }
+      }
+    }
+    .navbar-collapse.collapse {
+      @media screen and (min-width: 768px) {
+        padding-right: 0;
+        padding-left: 0;
+      }
+    }
+  }
   h1 {
-    color: blue;
+    padding: 30px 0 15px;
+    @include mobile {
+      float: left;
+      padding: 0 0 10px;
+    }
+    small {
+      font-size: 24.5px;
+      font-style: italic;
+      @include mobile {
+        display: block;
+        font-size: 16px;
+        padding-top: 5px;
+      }
+    }
   }
 }
