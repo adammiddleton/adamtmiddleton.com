@@ -157,6 +157,37 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 600;
 }
 
+h2 {
+  padding: 0;
+  display: inline-block;
+  margin: 0 0 40px 0;
+  padding: 8px 30px 9px 130px;
+  position: relative;
+  text-align: right;
+  color: #fff;
+  background: #000;
+  @include mobile {
+    margin: 0 0 10px 0;
+    padding: 9px 10px 9px 40px;
+    text-align: left;
+    font-size: 24px;
+  }
+}
+.arrow_title {
+  position: absolute;
+  border-bottom: 25px solid transparent;
+  border-left: 35px solid #000;
+  border-top: 25px solid transparent;
+  width: 37px;
+  height: 0px;
+  top: 0;
+  right: -37px;
+  @include mobile {
+    border-bottom: 22px solid transparent;
+    border-top: 22px solid transparent;
+  }
+}
+
 a {
   transition: all 0.3s ease;
   cursor: pointer;
@@ -180,6 +211,7 @@ div[class^="col-"], div[class*=" col-"] {
   }
 }
 
+@import "navbar";
 @import "about-me";
 @import "skills";
 @import "education";
