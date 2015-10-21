@@ -10,18 +10,12 @@
       }
       & > a {
         color: $titleColor;
-        // padding-left: 0;
         font-size: 1.75em;
         font-family: $titleFont;
-        @media screen and (min-width: 768px) {
-          &[href="#about-me"] {
-            padding-left: 0;
-          }
-        }
       }
     }
     .navbar-collapse.collapse {
-      @media screen and (min-width: 768px) {
+      @include aboveMobile {
         padding-right: 0;
         padding-left: 0;
       }

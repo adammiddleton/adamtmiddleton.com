@@ -188,6 +188,25 @@ h2 {
     font-size: 24px;
   }
 }
+
+h3 {
+  font-size: 3.75em;
+  line-height: 1.15;
+  @include tablet {
+    font-size: 2.75em;
+  }
+}
+
+h6 {
+  font-size: 1.85em;
+  line-height: 1.4;
+}
+p {
+  font-size: 2em;
+  @include tablet {
+    font-size: 1.65em;
+  }
+}
 .arrow_title {
   position: absolute;
   border-bottom: 25px solid transparent;
