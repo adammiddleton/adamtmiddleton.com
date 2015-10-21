@@ -251,8 +251,7 @@ div[class^="col-"], div[class*=" col-"] {
 }
 
 .section {
-  padding: 0 0 40px;
-  margin: 0 0 40px;
+  padding: 40px 0;
   border-bottom: 1px solid $borderGrey;
   @include mobile {
     padding: 10px 0;
