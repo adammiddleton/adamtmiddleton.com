@@ -1,7 +1,8 @@
 $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/bootstrap/";
+$fa-font-path: "/bower_components/font-awesome/fonts/";
 // bower:scss
 @import "bootstrap-sass-official/assets/stylesheets/_bootstrap.scss";
-@import "components-font-awesome/scss/font-awesome.scss";
+@import "font-awesome/scss/font-awesome.scss";
 // endbower
 
 @import "fonts";
@@ -247,6 +248,15 @@ div[class^="col-"], div[class*=" col-"] {
 .container > .navbar-header, .container > .navbar-collapse, .container-fluid > .navbar-header, .container-fluid > .navbar-collapse {
   margin-right: 0;
   margin-left: 0;
+}
+
+.section {
+  padding: 0 0 40px;
+  margin: 0 0 40px;
+  border-bottom: 1px solid $borderGrey;
+  @include mobile {
+    padding: 10px 0;
+  }
 }
 
 @import "navbar";

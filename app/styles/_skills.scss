@@ -1,3 +1,43 @@
 #skills-section {
-
+  .left {
+    .skill {
+      h4 {
+        float: right;
+        padding: 10px;
+        border-bottom: 1px solid $titleColor;
+        @include mobile {
+          float: none;
+        }
+      }
+      &:last-child {
+        h4 {
+          @include aboveMobile {
+            border-bottom: 0;
+          }
+        }
+      }
+    }
+  }
+  .right {
+    @include aboveMobile {
+      padding-top: 20px;
+    }
+    .skill {
+      h4 {
+        float: left;
+        padding: 10px;
+        border-left: 1px solid $titleColor;
+        border-bottom: 1px solid $titleColor;
+        @include mobile {
+          float: none;
+          border-left: none;
+        }
+      }
+      &:last-child {
+        h4 {
+          border-bottom: 0;
+        }
+      }
+    }
+  }
 }
