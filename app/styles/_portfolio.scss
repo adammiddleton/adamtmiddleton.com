@@ -1,0 +1,42 @@
+#portfolio-section {
+  h3 {
+    padding-bottom: 10px;
+  }
+  h5 {
+    padding-bottom: 5px;
+  }
+  p {
+    font-size: 1.65em;
+  }
+  .portfolio-item-row {
+    padding-top: 7.5px;
+    margin-bottom: 15px;
+  }
+  .thumbnail {
+    border: 0;
+    background-color: $white;
+    padding-right: 0;
+    padding-left: 0;
+    .caption {
+      padding-right: 0;
+      padding-left: 0;
+    }
+  }
+  @include aboveTablet {
+    .thumbnail-container:first-child .thumbnail {
+      padding-right: 15px;
+    }
+    .thumbnail-container.border .thumbnail {
+      border-left: 1px solid $borderGrey;
+      padding-left: 15px;
+    }
+    .portfolio-item-row {
+      border-top: 1px solid $borderGrey;
+    }
+  }
+  @include tablet {
+    .thumbnail {
+      padding-bottom: 15px;
+    }
+  }
+}

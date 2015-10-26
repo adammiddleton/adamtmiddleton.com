@@ -66,6 +66,11 @@
       }
     }
     .body {
+      .text-content {
+        @include aboveMobile {
+          padding-right: 10px;
+        }
+      }
       .company-desc {
         font-family: $textFont;
         font-weight: 300;
